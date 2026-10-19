@@ -1,2 +1,2 @@
 SELECT title, price FROM books
-ORDER BY price, ASC
+ORDER BY price ASC
