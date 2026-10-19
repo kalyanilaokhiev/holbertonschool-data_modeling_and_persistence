@@ -1,2 +1,2 @@
 SELECT title, genre FROM books
-WHERE genre = 'Fanasy' OR price < 10
+WHERE genre = 'Fantasy' OR price < 10
