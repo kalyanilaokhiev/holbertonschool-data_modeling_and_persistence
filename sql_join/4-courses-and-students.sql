@@ -1,5 +1,5 @@
 SELECT courses.title, students.name
-FROM students
-LEFT JOIN enrollments ON students.id = enrollments.student_id
-LEFT JOIN courses ON enrollments.course_id = courses.id
+FROM courses
+LEFT JOIN enrollments ON courses.id = enrollments.course_id
+LEFT JOIN students ON enrollments.student_id = student.id
 ORDER BY courses.title ASC, students.name ASC;
